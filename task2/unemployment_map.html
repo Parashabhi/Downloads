@@ -1,0 +1,4074 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_90fc9894fb65682c655ed7d6cbb90ecd {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_90fc9894fb65682c655ed7d6cbb90ecd" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_90fc9894fb65682c655ed7d6cbb90ecd = L.map(
+                "map_90fc9894fb65682c655ed7d6cbb90ecd",
+                {
+                    center: [80.53242471910112, 22.826047940074908],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1f40ead0158d1b40910a96e976f4bb74 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            var marker_109428db09cb49e875b3b4cbb651df2e = L.marker(
+                [79.74, 15.9129],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_109428db09cb49e875b3b4cbb651df2e.bindTooltip(
+                `<div>
+                     Region: Andhra Pradesh
+Unemployment Rate: 16635535%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_49932064272563717fd1e9abd6089ed6 = L.marker(
+                [79.74, 15.9129],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_49932064272563717fd1e9abd6089ed6.bindTooltip(
+                `<div>
+                     Region: Andhra Pradesh
+Unemployment Rate: 16545652%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_74475e1b41f5b1aad240fab991648c27 = L.marker(
+                [79.74, 15.9129],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_74475e1b41f5b1aad240fab991648c27.bindTooltip(
+                `<div>
+                     Region: Andhra Pradesh
+Unemployment Rate: 15881197%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2dc98354c963f74623c39c3870d6fcd5 = L.marker(
+                [79.74, 15.9129],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_2dc98354c963f74623c39c3870d6fcd5.bindTooltip(
+                `<div>
+                     Region: Andhra Pradesh
+Unemployment Rate: 11336911%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_99dddd57ac78f1efb6145d819ac453ba = L.marker(
+                [79.74, 15.9129],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_99dddd57ac78f1efb6145d819ac453ba.bindTooltip(
+                `<div>
+                     Region: Andhra Pradesh
+Unemployment Rate: 12988845%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b7dd30481d07477186f08fcd44245b9c = L.marker(
+                [79.74, 15.9129],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_b7dd30481d07477186f08fcd44245b9c.bindTooltip(
+                `<div>
+                     Region: Andhra Pradesh
+Unemployment Rate: 19805400%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3a230879613ebaee21870b703027054c = L.marker(
+                [79.74, 15.9129],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_3a230879613ebaee21870b703027054c.bindTooltip(
+                `<div>
+                     Region: Andhra Pradesh
+Unemployment Rate: 15431615%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_803521000f6898552540b4e1b923f72f = L.marker(
+                [79.74, 15.9129],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_803521000f6898552540b4e1b923f72f.bindTooltip(
+                `<div>
+                     Region: Andhra Pradesh
+Unemployment Rate: 15251776%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4adc2e6582f871307cfd07a400a5af0e = L.marker(
+                [79.74, 15.9129],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_4adc2e6582f871307cfd07a400a5af0e.bindTooltip(
+                `<div>
+                     Region: Andhra Pradesh
+Unemployment Rate: 15220312%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_da41f04330528b7762d2d8ab59439b5a = L.marker(
+                [79.74, 15.9129],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_da41f04330528b7762d2d8ab59439b5a.bindTooltip(
+                `<div>
+                     Region: Andhra Pradesh
+Unemployment Rate: 15157557%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_912fa945a32c50c199d90c008840ff97 = L.marker(
+                [92.9376, 26.2006],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_912fa945a32c50c199d90c008840ff97.bindTooltip(
+                `<div>
+                     Region: Assam
+Unemployment Rate: 13051904%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_63d8fd0858d2177893160f952f9fabf7 = L.marker(
+                [92.9376, 26.2006],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_63d8fd0858d2177893160f952f9fabf7.bindTooltip(
+                `<div>
+                     Region: Assam
+Unemployment Rate: 10088268%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_660a4a07e1e6bb554d1ff91d66c2fa71 = L.marker(
+                [92.9376, 26.2006],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_660a4a07e1e6bb554d1ff91d66c2fa71.bindTooltip(
+                `<div>
+                     Region: Assam
+Unemployment Rate: 11542888%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_67356318ce434f4b61038d5413470417 = L.marker(
+                [92.9376, 26.2006],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_67356318ce434f4b61038d5413470417.bindTooltip(
+                `<div>
+                     Region: Assam
+Unemployment Rate: 6830817%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b61d67374f1a37b1a462387002654a02 = L.marker(
+                [92.9376, 26.2006],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_b61d67374f1a37b1a462387002654a02.bindTooltip(
+                `<div>
+                     Region: Assam
+Unemployment Rate: 11367897%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9ee35a5f24465d95c2817348cc0439da = L.marker(
+                [92.9376, 26.2006],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_9ee35a5f24465d95c2817348cc0439da.bindTooltip(
+                `<div>
+                     Region: Assam
+Unemployment Rate: 9095944%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_76edfa5bd2ab82fff65e052a27a89298 = L.marker(
+                [92.9376, 26.2006],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_76edfa5bd2ab82fff65e052a27a89298.bindTooltip(
+                `<div>
+                     Region: Assam
+Unemployment Rate: 10286757%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fd5c3d59d3f126379a8333ef9df14de7 = L.marker(
+                [92.9376, 26.2006],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_fd5c3d59d3f126379a8333ef9df14de7.bindTooltip(
+                `<div>
+                     Region: Assam
+Unemployment Rate: 9781310%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_221083af6f8e43b3c0c4e085094cf96d = L.marker(
+                [92.9376, 26.2006],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_221083af6f8e43b3c0c4e085094cf96d.bindTooltip(
+                `<div>
+                     Region: Assam
+Unemployment Rate: 14107641%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d4f329bbb8bc3e19418e505ea052ed82 = L.marker(
+                [92.9376, 26.2006],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_d4f329bbb8bc3e19418e505ea052ed82.bindTooltip(
+                `<div>
+                     Region: Assam
+Unemployment Rate: 11949329%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_37637a878d231b1251883f42a618752c = L.marker(
+                [85.3131, 25.0961],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_37637a878d231b1251883f42a618752c.bindTooltip(
+                `<div>
+                     Region: Bihar
+Unemployment Rate: 26397671%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9f48bc3e9bfb2f4b6168567b2be61ea2 = L.marker(
+                [85.3131, 25.0961],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_9f48bc3e9bfb2f4b6168567b2be61ea2.bindTooltip(
+                `<div>
+                     Region: Bihar
+Unemployment Rate: 26281655%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4f33dcca7b757add8f0b98ff3c97b6c6 = L.marker(
+                [85.3131, 25.0961],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_4f33dcca7b757add8f0b98ff3c97b6c6.bindTooltip(
+                `<div>
+                     Region: Bihar
+Unemployment Rate: 25717519%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5067ac7596d5d87126cc005b90827d89 = L.marker(
+                [85.3131, 25.0961],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_5067ac7596d5d87126cc005b90827d89.bindTooltip(
+                `<div>
+                     Region: Bihar
+Unemployment Rate: 16046236%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8ba1be0af9f881a1e9b234e610e870b3 = L.marker(
+                [85.3131, 25.0961],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_8ba1be0af9f881a1e9b234e610e870b3.bindTooltip(
+                `<div>
+                     Region: Bihar
+Unemployment Rate: 16280203%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_140905ccc79cd441252e2d72a170d6a4 = L.marker(
+                [85.3131, 25.0961],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_140905ccc79cd441252e2d72a170d6a4.bindTooltip(
+                `<div>
+                     Region: Bihar
+Unemployment Rate: 23963933%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_19c1a49156b8355d34536338e125a9bf = L.marker(
+                [85.3131, 25.0961],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_19c1a49156b8355d34536338e125a9bf.bindTooltip(
+                `<div>
+                     Region: Bihar
+Unemployment Rate: 24989370%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_33ac588cfc2649b0418be2959d5119f0 = L.marker(
+                [85.3131, 25.0961],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_33ac588cfc2649b0418be2959d5119f0.bindTooltip(
+                `<div>
+                     Region: Bihar
+Unemployment Rate: 23795534%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5070c54262a12e7c064535800fa8cbce = L.marker(
+                [85.3131, 25.0961],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_5070c54262a12e7c064535800fa8cbce.bindTooltip(
+                `<div>
+                     Region: Bihar
+Unemployment Rate: 26902907%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e74c63483d79d1b1ecf4e7403c710ac0 = L.marker(
+                [85.3131, 25.0961],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_e74c63483d79d1b1ecf4e7403c710ac0.bindTooltip(
+                `<div>
+                     Region: Bihar
+Unemployment Rate: 25693252%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c6683295131ce34b8306f5a820673ddb = L.marker(
+                [81.8661, 21.2787],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_c6683295131ce34b8306f5a820673ddb.bindTooltip(
+                `<div>
+                     Region: Chhattisgarh
+Unemployment Rate: 8552172%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6d46aa6238f01f637fc06b322be08c37 = L.marker(
+                [81.8661, 21.2787],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_6d46aa6238f01f637fc06b322be08c37.bindTooltip(
+                `<div>
+                     Region: Chhattisgarh
+Unemployment Rate: 9195114%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ef80e018a29a6d7c8d76c3f0f163946b = L.marker(
+                [81.8661, 21.2787],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_ef80e018a29a6d7c8d76c3f0f163946b.bindTooltip(
+                `<div>
+                     Region: Chhattisgarh
+Unemployment Rate: 9302317%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b842e04ee2377da0a0569e13b8d9b4c9 = L.marker(
+                [81.8661, 21.2787],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_b842e04ee2377da0a0569e13b8d9b4c9.bindTooltip(
+                `<div>
+                     Region: Chhattisgarh
+Unemployment Rate: 7600448%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_802e08576f766bd4dca8146ba3980198 = L.marker(
+                [81.8661, 21.2787],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_802e08576f766bd4dca8146ba3980198.bindTooltip(
+                `<div>
+                     Region: Chhattisgarh
+Unemployment Rate: 6991217%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ee397c433c34dadbe37bbcf83f4a22eb = L.marker(
+                [81.8661, 21.2787],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_ee397c433c34dadbe37bbcf83f4a22eb.bindTooltip(
+                `<div>
+                     Region: Chhattisgarh
+Unemployment Rate: 7332807%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ac97efb32377ee6f09db1ff9b9b826e8 = L.marker(
+                [81.8661, 21.2787],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_ac97efb32377ee6f09db1ff9b9b826e8.bindTooltip(
+                `<div>
+                     Region: Chhattisgarh
+Unemployment Rate: 8620294%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8301e0d7b37c8f33ad9c77f8f79acb97 = L.marker(
+                [81.8661, 21.2787],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_8301e0d7b37c8f33ad9c77f8f79acb97.bindTooltip(
+                `<div>
+                     Region: Chhattisgarh
+Unemployment Rate: 9050422%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0b0179437022e7c3fd783907ed59c81d = L.marker(
+                [81.8661, 21.2787],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_0b0179437022e7c3fd783907ed59c81d.bindTooltip(
+                `<div>
+                     Region: Chhattisgarh
+Unemployment Rate: 9021854%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9891da84b90b099ad7f9ed1fabf51415 = L.marker(
+                [81.8661, 21.2787],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_9891da84b90b099ad7f9ed1fabf51415.bindTooltip(
+                `<div>
+                     Region: Chhattisgarh
+Unemployment Rate: 8546847%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9520115bbb8d5514fcbd905ec80c6087 = L.marker(
+                [77.1025, 28.7041],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_9520115bbb8d5514fcbd905ec80c6087.bindTooltip(
+                `<div>
+                     Region: Delhi
+Unemployment Rate: 5805284%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_536e1c38ace4a90f97188a74ac34c3e5 = L.marker(
+                [77.1025, 28.7041],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_536e1c38ace4a90f97188a74ac34c3e5.bindTooltip(
+                `<div>
+                     Region: Delhi
+Unemployment Rate: 5856307%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1da6572df2f9df94c0376e182251ba76 = L.marker(
+                [77.1025, 28.7041],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_1da6572df2f9df94c0376e182251ba76.bindTooltip(
+                `<div>
+                     Region: Delhi
+Unemployment Rate: 5553805%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6c4d3df70fc4fc1086f21c863b64085d = L.marker(
+                [77.1025, 28.7041],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_6c4d3df70fc4fc1086f21c863b64085d.bindTooltip(
+                `<div>
+                     Region: Delhi
+Unemployment Rate: 3119274%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a3fab97613bad209ea9f137e296258c1 = L.marker(
+                [77.1025, 28.7041],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_a3fab97613bad209ea9f137e296258c1.bindTooltip(
+                `<div>
+                     Region: Delhi
+Unemployment Rate: 2632404%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f0b803f0bf5e975971ba9d086418c6f0 = L.marker(
+                [77.1025, 28.7041],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_f0b803f0bf5e975971ba9d086418c6f0.bindTooltip(
+                `<div>
+                     Region: Delhi
+Unemployment Rate: 4418914%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a17cb380bc2ceb532a0deb925ad8adcd = L.marker(
+                [77.1025, 28.7041],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_a17cb380bc2ceb532a0deb925ad8adcd.bindTooltip(
+                `<div>
+                     Region: Delhi
+Unemployment Rate: 4291053%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_73b799eab4e220f55b48ee3cf6a2c2f1 = L.marker(
+                [77.1025, 28.7041],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_73b799eab4e220f55b48ee3cf6a2c2f1.bindTooltip(
+                `<div>
+                     Region: Delhi
+Unemployment Rate: 4850107%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cf41990cc6cc9744fdda34ab4faf80d3 = L.marker(
+                [77.1025, 28.7041],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_cf41990cc6cc9744fdda34ab4faf80d3.bindTooltip(
+                `<div>
+                     Region: Delhi
+Unemployment Rate: 4958373%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6461146a014e68679189ba0aa1ec9102 = L.marker(
+                [77.1025, 28.7041],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_6461146a014e68679189ba0aa1ec9102.bindTooltip(
+                `<div>
+                     Region: Delhi
+Unemployment Rate: 4842698%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_705d0722d3505a4b3c2045d65086285c = L.marker(
+                [74.124, 15.2993],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_705d0722d3505a4b3c2045d65086285c.bindTooltip(
+                `<div>
+                     Region: Goa
+Unemployment Rate: 416750%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_af884d429681ccbaa95c23c29a35e23a = L.marker(
+                [74.124, 15.2993],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_af884d429681ccbaa95c23c29a35e23a.bindTooltip(
+                `<div>
+                     Region: Goa
+Unemployment Rate: 478068%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_504f1d7ef5b0d9b57d8a6a7f0b54d7b3 = L.marker(
+                [74.124, 15.2993],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_504f1d7ef5b0d9b57d8a6a7f0b54d7b3.bindTooltip(
+                `<div>
+                     Region: Goa
+Unemployment Rate: 411761%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d5cfa0a4155ee1be9f670ce1fd32e03d = L.marker(
+                [74.124, 15.2993],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_d5cfa0a4155ee1be9f670ce1fd32e03d.bindTooltip(
+                `<div>
+                     Region: Goa
+Unemployment Rate: 500614%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_870eb0d2264526c8d03ed2c8ae91cdb2 = L.marker(
+                [74.124, 15.2993],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_870eb0d2264526c8d03ed2c8ae91cdb2.bindTooltip(
+                `<div>
+                     Region: Goa
+Unemployment Rate: 378244%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e0e5260d14e1461db66eb4e5d0b05e17 = L.marker(
+                [74.124, 15.2993],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_e0e5260d14e1461db66eb4e5d0b05e17.bindTooltip(
+                `<div>
+                     Region: Goa
+Unemployment Rate: 489111%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7388e5b25402c00e15ffa7485167d308 = L.marker(
+                [74.124, 15.2993],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_7388e5b25402c00e15ffa7485167d308.bindTooltip(
+                `<div>
+                     Region: Goa
+Unemployment Rate: 458876%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_23815cebb1b56f83fed81cce689113ef = L.marker(
+                [74.124, 15.2993],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_23815cebb1b56f83fed81cce689113ef.bindTooltip(
+                `<div>
+                     Region: Goa
+Unemployment Rate: 473016%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_beca2c196903fa7b3940321ba2bb3ce9 = L.marker(
+                [74.124, 15.2993],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_beca2c196903fa7b3940321ba2bb3ce9.bindTooltip(
+                `<div>
+                     Region: Goa
+Unemployment Rate: 425004%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_64895d876f4de1677ccda436b9bee0b8 = L.marker(
+                [74.124, 15.2993],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_64895d876f4de1677ccda436b9bee0b8.bindTooltip(
+                `<div>
+                     Region: Goa
+Unemployment Rate: 392304%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9f94158b1e46142768d958b4a5b83d12 = L.marker(
+                [71.1924, 22.2587],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_9f94158b1e46142768d958b4a5b83d12.bindTooltip(
+                `<div>
+                     Region: Gujarat
+Unemployment Rate: 24126346%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_10c28351dd41f016fc83b2cc68c5a8aa = L.marker(
+                [71.1924, 22.2587],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_10c28351dd41f016fc83b2cc68c5a8aa.bindTooltip(
+                `<div>
+                     Region: Gujarat
+Unemployment Rate: 24757795%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aa21ae93f2f52964fbcb0ea5c9529591 = L.marker(
+                [71.1924, 22.2587],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_aa21ae93f2f52964fbcb0ea5c9529591.bindTooltip(
+                `<div>
+                     Region: Gujarat
+Unemployment Rate: 23566641%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_34210112b6e25833ae938d4a8ae7cf8e = L.marker(
+                [71.1924, 22.2587],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_34210112b6e25833ae938d4a8ae7cf8e.bindTooltip(
+                `<div>
+                     Region: Gujarat
+Unemployment Rate: 15288878%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1ddb310d87da04bfb31a3b4014562a02 = L.marker(
+                [71.1924, 22.2587],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_1ddb310d87da04bfb31a3b4014562a02.bindTooltip(
+                `<div>
+                     Region: Gujarat
+Unemployment Rate: 17836936%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f97eb9624e986264e21ecb6388a9dcb6 = L.marker(
+                [71.1924, 22.2587],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_f97eb9624e986264e21ecb6388a9dcb6.bindTooltip(
+                `<div>
+                     Region: Gujarat
+Unemployment Rate: 23657055%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f40ed0c23f6437ef2dce0575fea3a9f0 = L.marker(
+                [71.1924, 22.2587],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_f40ed0c23f6437ef2dce0575fea3a9f0.bindTooltip(
+                `<div>
+                     Region: Gujarat
+Unemployment Rate: 24276120%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_25ff09d86e415f46f8e51c9f75d2ae27 = L.marker(
+                [71.1924, 22.2587],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_25ff09d86e415f46f8e51c9f75d2ae27.bindTooltip(
+                `<div>
+                     Region: Gujarat
+Unemployment Rate: 22817232%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6ea8ce03b531ea67717d75781bef2a27 = L.marker(
+                [71.1924, 22.2587],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_6ea8ce03b531ea67717d75781bef2a27.bindTooltip(
+                `<div>
+                     Region: Gujarat
+Unemployment Rate: 25010199%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c1337da8373a8632483eaade671a6290 = L.marker(
+                [71.1924, 22.2587],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_c1337da8373a8632483eaade671a6290.bindTooltip(
+                `<div>
+                     Region: Gujarat
+Unemployment Rate: 25970259%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eed65925a0fd1f0b4bacda24f8aa95e5 = L.marker(
+                [76.0856, 29.0588],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_eed65925a0fd1f0b4bacda24f8aa95e5.bindTooltip(
+                `<div>
+                     Region: Haryana
+Unemployment Rate: 7693231%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e37eb8e155060425ee1171ee05f6a1b5 = L.marker(
+                [76.0856, 29.0588],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_e37eb8e155060425ee1171ee05f6a1b5.bindTooltip(
+                `<div>
+                     Region: Haryana
+Unemployment Rate: 7322942%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b9acf287bc219b31914d29a79a67b8ae = L.marker(
+                [76.0856, 29.0588],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_b9acf287bc219b31914d29a79a67b8ae.bindTooltip(
+                `<div>
+                     Region: Haryana
+Unemployment Rate: 6641555%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5e37a151dccf2d3a269bf3f441bef9fe = L.marker(
+                [76.0856, 29.0588],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_5e37a151dccf2d3a269bf3f441bef9fe.bindTooltip(
+                `<div>
+                     Region: Haryana
+Unemployment Rate: 5647630%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0d7d7a248865b877cd2077eddf69d989 = L.marker(
+                [76.0856, 29.0588],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_0d7d7a248865b877cd2077eddf69d989.bindTooltip(
+                `<div>
+                     Region: Haryana
+Unemployment Rate: 6437868%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_354db85400d4200988b8c2c187493e8f = L.marker(
+                [76.0856, 29.0588],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_354db85400d4200988b8c2c187493e8f.bindTooltip(
+                `<div>
+                     Region: Haryana
+Unemployment Rate: 6951934%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6d6d29e30742197d8373652c477c92f6 = L.marker(
+                [76.0856, 29.0588],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_6d6d29e30742197d8373652c477c92f6.bindTooltip(
+                `<div>
+                     Region: Haryana
+Unemployment Rate: 6800652%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8c8624c1b34f7dc1c3c9c6987cc0fd28 = L.marker(
+                [76.0856, 29.0588],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_8c8624c1b34f7dc1c3c9c6987cc0fd28.bindTooltip(
+                `<div>
+                     Region: Haryana
+Unemployment Rate: 7113788%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f77c99f1581a03974c897bee768bfc6f = L.marker(
+                [76.0856, 29.0588],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_f77c99f1581a03974c897bee768bfc6f.bindTooltip(
+                `<div>
+                     Region: Haryana
+Unemployment Rate: 7132439%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8f836f4dc95df2d35e90dfaab5aad609 = L.marker(
+                [76.0856, 29.0588],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_8f836f4dc95df2d35e90dfaab5aad609.bindTooltip(
+                `<div>
+                     Region: Haryana
+Unemployment Rate: 6698551%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e71ea795d8fe3bcc9072b6c1b534c3c3 = L.marker(
+                [77.1734, 31.1048],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_e71ea795d8fe3bcc9072b6c1b534c3c3.bindTooltip(
+                `<div>
+                     Region: Himachal Pradesh
+Unemployment Rate: 2287632%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_53db29879de6d569f9a3eee70b9d1186 = L.marker(
+                [77.1734, 31.1048],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_53db29879de6d569f9a3eee70b9d1186.bindTooltip(
+                `<div>
+                     Region: Himachal Pradesh
+Unemployment Rate: 2180268%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e5f93dea455c2d29760fcdbb845ddffd = L.marker(
+                [77.1734, 31.1048],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_e5f93dea455c2d29760fcdbb845ddffd.bindTooltip(
+                `<div>
+                     Region: Himachal Pradesh
+Unemployment Rate: 2021858%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_557736021f81fc0b0fe4d207a7d59ce8 = L.marker(
+                [77.1734, 31.1048],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_557736021f81fc0b0fe4d207a7d59ce8.bindTooltip(
+                `<div>
+                     Region: Himachal Pradesh
+Unemployment Rate: 1131128%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_db9800a2a36f6095ebab4428d5642fcb = L.marker(
+                [77.1734, 31.1048],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_db9800a2a36f6095ebab4428d5642fcb.bindTooltip(
+                `<div>
+                     Region: Himachal Pradesh
+Unemployment Rate: 1897639%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dd08e95758b76a79eb88c80a12da54e5 = L.marker(
+                [77.1734, 31.1048],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_dd08e95758b76a79eb88c80a12da54e5.bindTooltip(
+                `<div>
+                     Region: Himachal Pradesh
+Unemployment Rate: 2199683%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ad9838823037dca3c98c507cc181f562 = L.marker(
+                [77.1734, 31.1048],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_ad9838823037dca3c98c507cc181f562.bindTooltip(
+                `<div>
+                     Region: Himachal Pradesh
+Unemployment Rate: 2229456%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b6825f3bf06660b2b712edcf4ee9e6f9 = L.marker(
+                [77.1734, 31.1048],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_b6825f3bf06660b2b712edcf4ee9e6f9.bindTooltip(
+                `<div>
+                     Region: Himachal Pradesh
+Unemployment Rate: 2029740%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e702dfeea08c66833068c264cae70f31 = L.marker(
+                [77.1734, 31.1048],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_e702dfeea08c66833068c264cae70f31.bindTooltip(
+                `<div>
+                     Region: Himachal Pradesh
+Unemployment Rate: 2237480%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1dee7c04aa4e0f841a22fd6d4433e03e = L.marker(
+                [77.1734, 31.1048],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_1dee7c04aa4e0f841a22fd6d4433e03e.bindTooltip(
+                `<div>
+                     Region: Himachal Pradesh
+Unemployment Rate: 2123965%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1eb749d9b554e947f961bc651dcfd349 = L.marker(
+                [76.5762, 33.7782],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_1eb749d9b554e947f961bc651dcfd349.bindTooltip(
+                `<div>
+                     Region: Jammu & Kashmir
+Unemployment Rate: 3453025%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_82670c32fe1672d949cf1961667aafb0 = L.marker(
+                [76.5762, 33.7782],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_82670c32fe1672d949cf1961667aafb0.bindTooltip(
+                `<div>
+                     Region: Jammu & Kashmir
+Unemployment Rate: 3223513%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9bba68a1188a234f0df836e2d890de42 = L.marker(
+                [76.5762, 33.7782],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_9bba68a1188a234f0df836e2d890de42.bindTooltip(
+                `<div>
+                     Region: Jammu & Kashmir
+Unemployment Rate: 3359107%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_67c0b48fe153a624b093691c139b3ad6 = L.marker(
+                [76.5762, 33.7782],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_67c0b48fe153a624b093691c139b3ad6.bindTooltip(
+                `<div>
+                     Region: Jammu & Kashmir
+Unemployment Rate: 3246493%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6d7b0f080a6320314c041e55e97a75be = L.marker(
+                [76.5762, 33.7782],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_6d7b0f080a6320314c041e55e97a75be.bindTooltip(
+                `<div>
+                     Region: Jammu & Kashmir
+Unemployment Rate: 3202336%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3bbbf668e3fead00686596dada374d86 = L.marker(
+                [76.5762, 33.7782],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_3bbbf668e3fead00686596dada374d86.bindTooltip(
+                `<div>
+                     Region: Jammu & Kashmir
+Unemployment Rate: 3558889%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5605af015247cd09925eab7135ae71de = L.marker(
+                [76.5762, 33.7782],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_5605af015247cd09925eab7135ae71de.bindTooltip(
+                `<div>
+                     Region: Jammu & Kashmir
+Unemployment Rate: 3429950%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3d6730d73b0fe3c7cc0f061c361f30a2 = L.marker(
+                [76.5762, 33.7782],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_3d6730d73b0fe3c7cc0f061c361f30a2.bindTooltip(
+                `<div>
+                     Region: Jammu & Kashmir
+Unemployment Rate: 3210281%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7333c893e874286f50cd3f6819b8b275 = L.marker(
+                [76.5762, 33.7782],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_7333c893e874286f50cd3f6819b8b275.bindTooltip(
+                `<div>
+                     Region: Jammu & Kashmir
+Unemployment Rate: 3106691%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5dde44e8c228c3ee88b1d2f0b66134cf = L.marker(
+                [85.2799, 23.6102],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_5dde44e8c228c3ee88b1d2f0b66134cf.bindTooltip(
+                `<div>
+                     Region: Jharkhand
+Unemployment Rate: 10198029%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eeacc0ef4a745da92985314c3e2ee566 = L.marker(
+                [85.2799, 23.6102],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_eeacc0ef4a745da92985314c3e2ee566.bindTooltip(
+                `<div>
+                     Region: Jharkhand
+Unemployment Rate: 10425425%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5a0f7ddc460f9e412d2c33664eba559a = L.marker(
+                [85.2799, 23.6102],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_5a0f7ddc460f9e412d2c33664eba559a.bindTooltip(
+                `<div>
+                     Region: Jharkhand
+Unemployment Rate: 9638115%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6a93aea51b921a229f41193cc29a53d0 = L.marker(
+                [85.2799, 23.6102],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_6a93aea51b921a229f41193cc29a53d0.bindTooltip(
+                `<div>
+                     Region: Jharkhand
+Unemployment Rate: 5335262%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2f5721c5352d8bef02d7e0aec58fca56 = L.marker(
+                [85.2799, 23.6102],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_2f5721c5352d8bef02d7e0aec58fca56.bindTooltip(
+                `<div>
+                     Region: Jharkhand
+Unemployment Rate: 4145385%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8a38f98db26aca6b20d6c84f06fa85c8 = L.marker(
+                [85.2799, 23.6102],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_8a38f98db26aca6b20d6c84f06fa85c8.bindTooltip(
+                `<div>
+                     Region: Jharkhand
+Unemployment Rate: 8622722%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_38ad8450906397ba7029375c6da398fc = L.marker(
+                [85.2799, 23.6102],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_38ad8450906397ba7029375c6da398fc.bindTooltip(
+                `<div>
+                     Region: Jharkhand
+Unemployment Rate: 9521900%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_601bb8dbbd0ffb60f2e4b88258f9ed78 = L.marker(
+                [85.2799, 23.6102],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_601bb8dbbd0ffb60f2e4b88258f9ed78.bindTooltip(
+                `<div>
+                     Region: Jharkhand
+Unemployment Rate: 9331640%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4999bcafc8ae976630b79b4cdd9242e4 = L.marker(
+                [85.2799, 23.6102],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_4999bcafc8ae976630b79b4cdd9242e4.bindTooltip(
+                `<div>
+                     Region: Jharkhand
+Unemployment Rate: 10185670%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3f98538aeedbe0ddd2fe962ae5768fc8 = L.marker(
+                [85.2799, 23.6102],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_3f98538aeedbe0ddd2fe962ae5768fc8.bindTooltip(
+                `<div>
+                     Region: Jharkhand
+Unemployment Rate: 10302276%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_309ff45ca43c17046173a7e2f1afd568 = L.marker(
+                [75.7139, 15.3173],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_309ff45ca43c17046173a7e2f1afd568.bindTooltip(
+                `<div>
+                     Region: Karnataka
+Unemployment Rate: 22688028%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f0a9bb0bf0a5c1ccc2c3b6470993c38d = L.marker(
+                [75.7139, 15.3173],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_f0a9bb0bf0a5c1ccc2c3b6470993c38d.bindTooltip(
+                `<div>
+                     Region: Karnataka
+Unemployment Rate: 21677719%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_37242b030865548cb3d13e1219c1f98b = L.marker(
+                [75.7139, 15.3173],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_37242b030865548cb3d13e1219c1f98b.bindTooltip(
+                `<div>
+                     Region: Karnataka
+Unemployment Rate: 22079653%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b5c993a3ca8f75de31d7f47a99d28490 = L.marker(
+                [75.7139, 15.3173],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_b5c993a3ca8f75de31d7f47a99d28490.bindTooltip(
+                `<div>
+                     Region: Karnataka
+Unemployment Rate: 16718395%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cf3c22fd84d6c21defaf0bc299484df7 = L.marker(
+                [75.7139, 15.3173],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_cf3c22fd84d6c21defaf0bc299484df7.bindTooltip(
+                `<div>
+                     Region: Karnataka
+Unemployment Rate: 19397853%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_accf3a7fc2168e220c73661ad530d053 = L.marker(
+                [75.7139, 15.3173],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_accf3a7fc2168e220c73661ad530d053.bindTooltip(
+                `<div>
+                     Region: Karnataka
+Unemployment Rate: 24215057%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_235487043e572ac4e52f7c43c773427e = L.marker(
+                [75.7139, 15.3173],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_235487043e572ac4e52f7c43c773427e.bindTooltip(
+                `<div>
+                     Region: Karnataka
+Unemployment Rate: 22885616%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b3799ed7f43162364f74cf279ce7dbb7 = L.marker(
+                [75.7139, 15.3173],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_b3799ed7f43162364f74cf279ce7dbb7.bindTooltip(
+                `<div>
+                     Region: Karnataka
+Unemployment Rate: 24094289%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_32252e2a4083bdf6212197543530de3c = L.marker(
+                [75.7139, 15.3173],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_32252e2a4083bdf6212197543530de3c.bindTooltip(
+                `<div>
+                     Region: Karnataka
+Unemployment Rate: 20127176%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1e018e3bc35148bec63f6ab677a7775d = L.marker(
+                [75.7139, 15.3173],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_1e018e3bc35148bec63f6ab677a7775d.bindTooltip(
+                `<div>
+                     Region: Karnataka
+Unemployment Rate: 22356390%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7cf1324b697d2fca12269eaf0b090cb1 = L.marker(
+                [76.2711, 10.8505],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_7cf1324b697d2fca12269eaf0b090cb1.bindTooltip(
+                `<div>
+                     Region: Kerala
+Unemployment Rate: 9904534%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5f52f357c0692bac1293c5eb8c1c07be = L.marker(
+                [76.2711, 10.8505],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_5f52f357c0692bac1293c5eb8c1c07be.bindTooltip(
+                `<div>
+                     Region: Kerala
+Unemployment Rate: 9828023%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_68de70213de722194fc50830a4bbb2f2 = L.marker(
+                [76.2711, 10.8505],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_68de70213de722194fc50830a4bbb2f2.bindTooltip(
+                `<div>
+                     Region: Kerala
+Unemployment Rate: 8221728%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2fe5a8530a52e25a9c1fc73962f03198 = L.marker(
+                [76.2711, 10.8505],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_2fe5a8530a52e25a9c1fc73962f03198.bindTooltip(
+                `<div>
+                     Region: Kerala
+Unemployment Rate: 3933276%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cb8bdf78030ff9b892cea4b86ea04056 = L.marker(
+                [76.2711, 10.8505],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_cb8bdf78030ff9b892cea4b86ea04056.bindTooltip(
+                `<div>
+                     Region: Kerala
+Unemployment Rate: 7921962%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c5b23a069f39856550a8837f2f73961f = L.marker(
+                [76.2711, 10.8505],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_c5b23a069f39856550a8837f2f73961f.bindTooltip(
+                `<div>
+                     Region: Kerala
+Unemployment Rate: 9228268%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1bcf2d629a87677c6743cd3e93254794 = L.marker(
+                [76.2711, 10.8505],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_1bcf2d629a87677c6743cd3e93254794.bindTooltip(
+                `<div>
+                     Region: Kerala
+Unemployment Rate: 9504420%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_af2201601ad0671b941e57e315cf1c74 = L.marker(
+                [76.2711, 10.8505],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_af2201601ad0671b941e57e315cf1c74.bindTooltip(
+                `<div>
+                     Region: Kerala
+Unemployment Rate: 9031944%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2d3f319ebae21b4150ad6e6e7dad3218 = L.marker(
+                [76.2711, 10.8505],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_2d3f319ebae21b4150ad6e6e7dad3218.bindTooltip(
+                `<div>
+                     Region: Kerala
+Unemployment Rate: 9240913%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_50e5ca62b494b08b39afd121387422d0 = L.marker(
+                [76.2711, 10.8505],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_50e5ca62b494b08b39afd121387422d0.bindTooltip(
+                `<div>
+                     Region: Kerala
+Unemployment Rate: 9152881%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d58ddb19be68e739cf0b435f2a2e394b = L.marker(
+                [78.6569, 22.9734],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_d58ddb19be68e739cf0b435f2a2e394b.bindTooltip(
+                `<div>
+                     Region: Madhya Pradesh
+Unemployment Rate: 23018632%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a4f1a416db99fd0212742b6d7ab8be3c = L.marker(
+                [78.6569, 22.9734],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_a4f1a416db99fd0212742b6d7ab8be3c.bindTooltip(
+                `<div>
+                     Region: Madhya Pradesh
+Unemployment Rate: 22711479%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7d2d2de9a9f2523fbb496a0e2c92f2b1 = L.marker(
+                [78.6569, 22.9734],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_7d2d2de9a9f2523fbb496a0e2c92f2b1.bindTooltip(
+                `<div>
+                     Region: Madhya Pradesh
+Unemployment Rate: 22867164%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_58e174797d33eb6519576361b5c00e46 = L.marker(
+                [78.6569, 22.9734],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_58e174797d33eb6519576361b5c00e46.bindTooltip(
+                `<div>
+                     Region: Madhya Pradesh
+Unemployment Rate: 19041832%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fca97451e06bc5de2796a3eb723e2c56 = L.marker(
+                [78.6569, 22.9734],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_fca97451e06bc5de2796a3eb723e2c56.bindTooltip(
+                `<div>
+                     Region: Madhya Pradesh
+Unemployment Rate: 18443927%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0a11f823bfd24c93edf784ae56512cf1 = L.marker(
+                [78.6569, 22.9734],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_0a11f823bfd24c93edf784ae56512cf1.bindTooltip(
+                `<div>
+                     Region: Madhya Pradesh
+Unemployment Rate: 23054646%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ceb84962680735508b8771bd43ccdb04 = L.marker(
+                [78.6569, 22.9734],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_ceb84962680735508b8771bd43ccdb04.bindTooltip(
+                `<div>
+                     Region: Madhya Pradesh
+Unemployment Rate: 23940158%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2ea918a3ea100ad127b8105027f3e91a = L.marker(
+                [78.6569, 22.9734],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_2ea918a3ea100ad127b8105027f3e91a.bindTooltip(
+                `<div>
+                     Region: Madhya Pradesh
+Unemployment Rate: 23619011%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c5cf97546065fc4e77dec0c0c1d46241 = L.marker(
+                [78.6569, 22.9734],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_c5cf97546065fc4e77dec0c0c1d46241.bindTooltip(
+                `<div>
+                     Region: Madhya Pradesh
+Unemployment Rate: 23341952%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c6f207f1b1bef1d1bcb37c45de260d10 = L.marker(
+                [78.6569, 22.9734],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_c6f207f1b1bef1d1bcb37c45de260d10.bindTooltip(
+                `<div>
+                     Region: Madhya Pradesh
+Unemployment Rate: 23144552%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a3106d5460395d7c487b9cdd811f7dcf = L.marker(
+                [75.7139, 19.7515],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_a3106d5460395d7c487b9cdd811f7dcf.bindTooltip(
+                `<div>
+                     Region: Maharashtra
+Unemployment Rate: 42596868%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1af864e29513bbdfb94c94fbfa9771b7 = L.marker(
+                [75.7139, 19.7515],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_1af864e29513bbdfb94c94fbfa9771b7.bindTooltip(
+                `<div>
+                     Region: Maharashtra
+Unemployment Rate: 42416317%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_964c7e24e628749dc4ecbee9f34f5c78 = L.marker(
+                [75.7139, 19.7515],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_964c7e24e628749dc4ecbee9f34f5c78.bindTooltip(
+                `<div>
+                     Region: Maharashtra
+Unemployment Rate: 40196806%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0127205db6ebcdd7566ebeb6e1240439 = L.marker(
+                [75.7139, 19.7515],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_0127205db6ebcdd7566ebeb6e1240439.bindTooltip(
+                `<div>
+                     Region: Maharashtra
+Unemployment Rate: 27689253%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4dbf858f1b4912415d1e71abae086079 = L.marker(
+                [75.7139, 19.7515],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_4dbf858f1b4912415d1e71abae086079.bindTooltip(
+                `<div>
+                     Region: Maharashtra
+Unemployment Rate: 32116847%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3d2f3ce12cbd1b79b99ed4d24018b074 = L.marker(
+                [75.7139, 19.7515],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_3d2f3ce12cbd1b79b99ed4d24018b074.bindTooltip(
+                `<div>
+                     Region: Maharashtra
+Unemployment Rate: 39708538%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_771aa109d97fe385f0855190966b110f = L.marker(
+                [75.7139, 19.7515],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_771aa109d97fe385f0855190966b110f.bindTooltip(
+                `<div>
+                     Region: Maharashtra
+Unemployment Rate: 40998545%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_43c1aeb0579a15d42e9bac04bfd009b9 = L.marker(
+                [75.7139, 19.7515],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_43c1aeb0579a15d42e9bac04bfd009b9.bindTooltip(
+                `<div>
+                     Region: Maharashtra
+Unemployment Rate: 40963616%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_75b753cdaacadf7c123de2c58ab6f7ff = L.marker(
+                [75.7139, 19.7515],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_75b753cdaacadf7c123de2c58ab6f7ff.bindTooltip(
+                `<div>
+                     Region: Maharashtra
+Unemployment Rate: 42042911%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_acbd49c54cdfadedce39bbab9613b599 = L.marker(
+                [75.7139, 19.7515],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_acbd49c54cdfadedce39bbab9613b599.bindTooltip(
+                `<div>
+                     Region: Maharashtra
+Unemployment Rate: 43317881%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6c8cd6c265f9d5fa6c0442765c5aac26 = L.marker(
+                [91.3662, 25.467],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_6c8cd6c265f9d5fa6c0442765c5aac26.bindTooltip(
+                `<div>
+                     Region: Meghalaya
+Unemployment Rate: 1491093%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2001819546af8cddc971a036a0e986ee = L.marker(
+                [91.3662, 25.467],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_2001819546af8cddc971a036a0e986ee.bindTooltip(
+                `<div>
+                     Region: Meghalaya
+Unemployment Rate: 1346829%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1fa0cee6d2e7164f5be804dadc989631 = L.marker(
+                [91.3662, 25.467],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_1fa0cee6d2e7164f5be804dadc989631.bindTooltip(
+                `<div>
+                     Region: Meghalaya
+Unemployment Rate: 1482351%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aa9969bc272384512d222744d5d07c2d = L.marker(
+                [91.3662, 25.467],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_aa9969bc272384512d222744d5d07c2d.bindTooltip(
+                `<div>
+                     Region: Meghalaya
+Unemployment Rate: 965057%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_02b2f4cab8cd21dabda5b176a21acb34 = L.marker(
+                [91.3662, 25.467],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_02b2f4cab8cd21dabda5b176a21acb34.bindTooltip(
+                `<div>
+                     Region: Meghalaya
+Unemployment Rate: 1215064%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7b08c3ca1aa6210198a14110bbf1923a = L.marker(
+                [91.3662, 25.467],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_7b08c3ca1aa6210198a14110bbf1923a.bindTooltip(
+                `<div>
+                     Region: Meghalaya
+Unemployment Rate: 1350794%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d5b36f89393baae01737f87d7bcddbbd = L.marker(
+                [91.3662, 25.467],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_d5b36f89393baae01737f87d7bcddbbd.bindTooltip(
+                `<div>
+                     Region: Meghalaya
+Unemployment Rate: 1448106%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d7aaee94e1bab2f138125114ea053385 = L.marker(
+                [91.3662, 25.467],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_d7aaee94e1bab2f138125114ea053385.bindTooltip(
+                `<div>
+                     Region: Meghalaya
+Unemployment Rate: 1357643%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4276103396a1090b661d1b5f25048915 = L.marker(
+                [91.3662, 25.467],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_4276103396a1090b661d1b5f25048915.bindTooltip(
+                `<div>
+                     Region: Meghalaya
+Unemployment Rate: 1459726%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_380397ffc1dbb48e291d122bdc2d61f5 = L.marker(
+                [91.3662, 25.467],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_380397ffc1dbb48e291d122bdc2d61f5.bindTooltip(
+                `<div>
+                     Region: Meghalaya
+Unemployment Rate: 1381490%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b5471693687570783e4dec91b7075202 = L.marker(
+                [85.0985, 20.9517],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_b5471693687570783e4dec91b7075202.bindTooltip(
+                `<div>
+                     Region: Odisha
+Unemployment Rate: 13743448%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_42a7ba2b0d0dade85d2abbf372e6c553 = L.marker(
+                [85.0985, 20.9517],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_42a7ba2b0d0dade85d2abbf372e6c553.bindTooltip(
+                `<div>
+                     Region: Odisha
+Unemployment Rate: 14280735%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5e84369dbea4564cebc7d9e7f9b74646 = L.marker(
+                [85.0985, 20.9517],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_5e84369dbea4564cebc7d9e7f9b74646.bindTooltip(
+                `<div>
+                     Region: Odisha
+Unemployment Rate: 12272109%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_18318cee074d9619bce2bffa025ab40f = L.marker(
+                [85.0985, 20.9517],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_18318cee074d9619bce2bffa025ab40f.bindTooltip(
+                `<div>
+                     Region: Odisha
+Unemployment Rate: 6865693%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_97bde4437dbacd8013f389c9f5919460 = L.marker(
+                [85.0985, 20.9517],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_97bde4437dbacd8013f389c9f5919460.bindTooltip(
+                `<div>
+                     Region: Odisha
+Unemployment Rate: 11730937%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_231b7809a212e79237bd083ee74caef4 = L.marker(
+                [85.0985, 20.9517],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_231b7809a212e79237bd083ee74caef4.bindTooltip(
+                `<div>
+                     Region: Odisha
+Unemployment Rate: 12903993%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_22fabe0430af5358650a2d68623bb938 = L.marker(
+                [85.0985, 20.9517],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_22fabe0430af5358650a2d68623bb938.bindTooltip(
+                `<div>
+                     Region: Odisha
+Unemployment Rate: 13614400%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_99d21d070c8f6077aa7757466b4678e2 = L.marker(
+                [85.0985, 20.9517],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_99d21d070c8f6077aa7757466b4678e2.bindTooltip(
+                `<div>
+                     Region: Odisha
+Unemployment Rate: 14154039%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_98a72b2c394ed0e71f378d32b96f79f8 = L.marker(
+                [85.0985, 20.9517],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_98a72b2c394ed0e71f378d32b96f79f8.bindTooltip(
+                `<div>
+                     Region: Odisha
+Unemployment Rate: 13608422%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_97503dd4d62afa44d0595f28c18d46ab = L.marker(
+                [85.0985, 20.9517],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_97503dd4d62afa44d0595f28c18d46ab.bindTooltip(
+                `<div>
+                     Region: Odisha
+Unemployment Rate: 14094553%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eceb3638524ac5e5db3dd64138980a25 = L.marker(
+                [79.8083, 11.9416],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_eceb3638524ac5e5db3dd64138980a25.bindTooltip(
+                `<div>
+                     Region: Puducherry
+Unemployment Rate: 457950%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ad744d22d1630cc44ee4b5617515499c = L.marker(
+                [79.8083, 11.9416],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_ad744d22d1630cc44ee4b5617515499c.bindTooltip(
+                `<div>
+                     Region: Puducherry
+Unemployment Rate: 493961%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ccf48c60f2ff8cbbdfa109aad7bd02e5 = L.marker(
+                [79.8083, 11.9416],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_ccf48c60f2ff8cbbdfa109aad7bd02e5.bindTooltip(
+                `<div>
+                     Region: Puducherry
+Unemployment Rate: 421028%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_28b1c15a4e33aa1a1cbb951d19be9c25 = L.marker(
+                [79.8083, 11.9416],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_28b1c15a4e33aa1a1cbb951d19be9c25.bindTooltip(
+                `<div>
+                     Region: Puducherry
+Unemployment Rate: 117542%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5b4d1065ffafca1c9e06c20b23c244ed = L.marker(
+                [79.8083, 11.9416],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_5b4d1065ffafca1c9e06c20b23c244ed.bindTooltip(
+                `<div>
+                     Region: Puducherry
+Unemployment Rate: 172308%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3b49d19c4c9b6198de518601a75a6a96 = L.marker(
+                [79.8083, 11.9416],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_3b49d19c4c9b6198de518601a75a6a96.bindTooltip(
+                `<div>
+                     Region: Puducherry
+Unemployment Rate: 367135%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_115018d1215e1484e33fe02fe673f40e = L.marker(
+                [79.8083, 11.9416],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_115018d1215e1484e33fe02fe673f40e.bindTooltip(
+                `<div>
+                     Region: Puducherry
+Unemployment Rate: 386563%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a282955d1615e71a034d144e66f5994d = L.marker(
+                [79.8083, 11.9416],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_a282955d1615e71a034d144e66f5994d.bindTooltip(
+                `<div>
+                     Region: Puducherry
+Unemployment Rate: 396006%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a91d7357727c6b0f995beb58fdadc3c8 = L.marker(
+                [79.8083, 11.9416],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_a91d7357727c6b0f995beb58fdadc3c8.bindTooltip(
+                `<div>
+                     Region: Puducherry
+Unemployment Rate: 411717%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fce1829fbed7d072226e2d6b3b859e00 = L.marker(
+                [79.8083, 11.9416],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_fce1829fbed7d072226e2d6b3b859e00.bindTooltip(
+                `<div>
+                     Region: Puducherry
+Unemployment Rate: 428419%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9476d06c2458bc0715d6058d14e2d5fe = L.marker(
+                [75.3412, 31.1471],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_9476d06c2458bc0715d6058d14e2d5fe.bindTooltip(
+                `<div>
+                     Region: Punjab
+Unemployment Rate: 9442093%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ebe74e4f770e2ed54b5c3b8e04d259bc = L.marker(
+                [75.3412, 31.1471],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_ebe74e4f770e2ed54b5c3b8e04d259bc.bindTooltip(
+                `<div>
+                     Region: Punjab
+Unemployment Rate: 9229047%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_afc6139fe6d020797fad9a74bb69b922 = L.marker(
+                [75.3412, 31.1471],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_afc6139fe6d020797fad9a74bb69b922.bindTooltip(
+                `<div>
+                     Region: Punjab
+Unemployment Rate: 9975485%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_064544703ae61930fb9c9dd107d9e61b = L.marker(
+                [75.3412, 31.1471],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_064544703ae61930fb9c9dd107d9e61b.bindTooltip(
+                `<div>
+                     Region: Punjab
+Unemployment Rate: 7020565%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c9af210167e14b7eb001f5c08c7cec77 = L.marker(
+                [75.3412, 31.1471],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_c9af210167e14b7eb001f5c08c7cec77.bindTooltip(
+                `<div>
+                     Region: Punjab
+Unemployment Rate: 6872938%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a3ebbcbff0d05e2537f10d6c007b3191 = L.marker(
+                [75.3412, 31.1471],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_a3ebbcbff0d05e2537f10d6c007b3191.bindTooltip(
+                `<div>
+                     Region: Punjab
+Unemployment Rate: 8390766%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d31604bdeb6440344d6a0108aa7d5efa = L.marker(
+                [75.3412, 31.1471],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_d31604bdeb6440344d6a0108aa7d5efa.bindTooltip(
+                `<div>
+                     Region: Punjab
+Unemployment Rate: 9732417%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5f9ac9238b63e6a524312c602f8c3830 = L.marker(
+                [75.3412, 31.1471],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_5f9ac9238b63e6a524312c602f8c3830.bindTooltip(
+                `<div>
+                     Region: Punjab
+Unemployment Rate: 9386169%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d1dd869218f8b96858ac32f95ae8d3c3 = L.marker(
+                [75.3412, 31.1471],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_d1dd869218f8b96858ac32f95ae8d3c3.bindTooltip(
+                `<div>
+                     Region: Punjab
+Unemployment Rate: 8980432%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_46d24e1c18fffba6560bade15b6f6c19 = L.marker(
+                [75.3412, 31.1471],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_46d24e1c18fffba6560bade15b6f6c19.bindTooltip(
+                `<div>
+                     Region: Punjab
+Unemployment Rate: 8800430%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2ab27bf788c800f45d68fb6f4f1717d5 = L.marker(
+                [74.2179, 27.0238],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_2ab27bf788c800f45d68fb6f4f1717d5.bindTooltip(
+                `<div>
+                     Region: Rajasthan
+Unemployment Rate: 20641716%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_efe5c4043847f3aa3c2f77b5d7629afe = L.marker(
+                [74.2179, 27.0238],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_efe5c4043847f3aa3c2f77b5d7629afe.bindTooltip(
+                `<div>
+                     Region: Rajasthan
+Unemployment Rate: 20328915%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_64e5025c1c87257fafbb0b0cd7792ff8 = L.marker(
+                [74.2179, 27.0238],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_64e5025c1c87257fafbb0b0cd7792ff8.bindTooltip(
+                `<div>
+                     Region: Rajasthan
+Unemployment Rate: 20024680%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aa85ab8a9a7f930d9b59ddc143b257f5 = L.marker(
+                [74.2179, 27.0238],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_aa85ab8a9a7f930d9b59ddc143b257f5.bindTooltip(
+                `<div>
+                     Region: Rajasthan
+Unemployment Rate: 15984142%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7bdfc704f4e92d7c7617902fac7c2832 = L.marker(
+                [74.2179, 27.0238],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_7bdfc704f4e92d7c7617902fac7c2832.bindTooltip(
+                `<div>
+                     Region: Rajasthan
+Unemployment Rate: 19826602%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b5edf583cb4da0d1b2304d65635115d7 = L.marker(
+                [74.2179, 27.0238],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_b5edf583cb4da0d1b2304d65635115d7.bindTooltip(
+                `<div>
+                     Region: Rajasthan
+Unemployment Rate: 20506612%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9a51bb7f323aef7db0bfafaae2aa79a5 = L.marker(
+                [74.2179, 27.0238],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_9a51bb7f323aef7db0bfafaae2aa79a5.bindTooltip(
+                `<div>
+                     Region: Rajasthan
+Unemployment Rate: 19932393%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2fd092d2516c77ea42b22d8ca57b5a6d = L.marker(
+                [74.2179, 27.0238],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_2fd092d2516c77ea42b22d8ca57b5a6d.bindTooltip(
+                `<div>
+                     Region: Rajasthan
+Unemployment Rate: 20014060%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0c58331b9777a87caa7d613db86414d9 = L.marker(
+                [74.2179, 27.0238],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_0c58331b9777a87caa7d613db86414d9.bindTooltip(
+                `<div>
+                     Region: Rajasthan
+Unemployment Rate: 20149594%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d3a645e3614a82820478ceb43ce59997 = L.marker(
+                [74.2179, 27.0238],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_d3a645e3614a82820478ceb43ce59997.bindTooltip(
+                `<div>
+                     Region: Rajasthan
+Unemployment Rate: 19908808%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_06680baf253f0cb0f7cabb197e0912e4 = L.marker(
+                [88.5122, 27.533],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_06680baf253f0cb0f7cabb197e0912e4.bindTooltip(
+                `<div>
+                     Region: Sikkim
+Unemployment Rate: 262895%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f3d9f8f50b43b90a926e098547f2955b = L.marker(
+                [88.5122, 27.533],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_f3d9f8f50b43b90a926e098547f2955b.bindTooltip(
+                `<div>
+                     Region: Sikkim
+Unemployment Rate: 215303%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6cb83d1e436020bb772520bd97573990 = L.marker(
+                [88.5122, 27.533],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_6cb83d1e436020bb772520bd97573990.bindTooltip(
+                `<div>
+                     Region: Sikkim
+Unemployment Rate: 193427%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e81a37121d5a516260d351101e4b1067 = L.marker(
+                [88.5122, 27.533],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_e81a37121d5a516260d351101e4b1067.bindTooltip(
+                `<div>
+                     Region: Sikkim
+Unemployment Rate: 221058%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6de52d95f26b64052f5952df1eb3c9c9 = L.marker(
+                [88.5122, 27.533],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_6de52d95f26b64052f5952df1eb3c9c9.bindTooltip(
+                `<div>
+                     Region: Sikkim
+Unemployment Rate: 265175%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_78f590984b03878cea98174d56621dcd = L.marker(
+                [88.5122, 27.533],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_78f590984b03878cea98174d56621dcd.bindTooltip(
+                `<div>
+                     Region: Sikkim
+Unemployment Rate: 244462%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7624bf386503874faad464777c4ecc7b = L.marker(
+                [88.5122, 27.533],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_7624bf386503874faad464777c4ecc7b.bindTooltip(
+                `<div>
+                     Region: Sikkim
+Unemployment Rate: 231798%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_02ce85416e4be6f74b09fb9d885afc32 = L.marker(
+                [88.5122, 27.533],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_02ce85416e4be6f74b09fb9d885afc32.bindTooltip(
+                `<div>
+                     Region: Sikkim
+Unemployment Rate: 242068%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_431a1a5bff265f8097c5d25b0b3bc268 = L.marker(
+                [78.6569, 11.1271],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_431a1a5bff265f8097c5d25b0b3bc268.bindTooltip(
+                `<div>
+                     Region: Tamil Nadu
+Unemployment Rate: 26881641%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4d609e6066d46155df3e91fba15236cf = L.marker(
+                [78.6569, 11.1271],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_4d609e6066d46155df3e91fba15236cf.bindTooltip(
+                `<div>
+                     Region: Tamil Nadu
+Unemployment Rate: 27570589%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1341d6424691809ae2e38bb43a4d0a8b = L.marker(
+                [78.6569, 11.1271],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_1341d6424691809ae2e38bb43a4d0a8b.bindTooltip(
+                `<div>
+                     Region: Tamil Nadu
+Unemployment Rate: 26830768%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d61dcdb781736165f68b24a12b3e9a6b = L.marker(
+                [78.6569, 11.1271],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_d61dcdb781736165f68b24a12b3e9a6b.bindTooltip(
+                `<div>
+                     Region: Tamil Nadu
+Unemployment Rate: 9719167%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a26b566fac6579606f60f09e2d5fd52b = L.marker(
+                [78.6569, 11.1271],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_a26b566fac6579606f60f09e2d5fd52b.bindTooltip(
+                `<div>
+                     Region: Tamil Nadu
+Unemployment Rate: 11483256%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_07a6edd5e2adf82014d3d61ce9977dda = L.marker(
+                [78.6569, 11.1271],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_07a6edd5e2adf82014d3d61ce9977dda.bindTooltip(
+                `<div>
+                     Region: Tamil Nadu
+Unemployment Rate: 19096847%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_13f4ef66d277cf9f4da1839dfaa5442e = L.marker(
+                [78.6569, 11.1271],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_13f4ef66d277cf9f4da1839dfaa5442e.bindTooltip(
+                `<div>
+                     Region: Tamil Nadu
+Unemployment Rate: 24572827%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7fe0db91e7782ce346ea58e679c387a6 = L.marker(
+                [78.6569, 11.1271],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_7fe0db91e7782ce346ea58e679c387a6.bindTooltip(
+                `<div>
+                     Region: Tamil Nadu
+Unemployment Rate: 27046415%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_472358b3cea0ee831f4498099832a041 = L.marker(
+                [78.6569, 11.1271],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_472358b3cea0ee831f4498099832a041.bindTooltip(
+                `<div>
+                     Region: Tamil Nadu
+Unemployment Rate: 23025845%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fe997ea9c9216379df8aa385ef9edb13 = L.marker(
+                [78.6569, 11.1271],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_fe997ea9c9216379df8aa385ef9edb13.bindTooltip(
+                `<div>
+                     Region: Tamil Nadu
+Unemployment Rate: 23651626%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_783728dca634bb396049a077dee239f3 = L.marker(
+                [79.0193, 18.1124],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_783728dca634bb396049a077dee239f3.bindTooltip(
+                `<div>
+                     Region: Telangana
+Unemployment Rate: 17609295%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_19cb76e571b0bf2aa8cc08a8a203cbdb = L.marker(
+                [79.0193, 18.1124],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_19cb76e571b0bf2aa8cc08a8a203cbdb.bindTooltip(
+                `<div>
+                     Region: Telangana
+Unemployment Rate: 16825970%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_39a3c31e3b7164deb2ca97ada9fe1997 = L.marker(
+                [79.0193, 18.1124],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_39a3c31e3b7164deb2ca97ada9fe1997.bindTooltip(
+                `<div>
+                     Region: Telangana
+Unemployment Rate: 17341613%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_125b9d2f7ada0601ee94045741f41820 = L.marker(
+                [79.0193, 18.1124],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_125b9d2f7ada0601ee94045741f41820.bindTooltip(
+                `<div>
+                     Region: Telangana
+Unemployment Rate: 12172230%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8d2035e779b381879cd06a45509f6d45 = L.marker(
+                [79.0193, 18.1124],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_8d2035e779b381879cd06a45509f6d45.bindTooltip(
+                `<div>
+                     Region: Telangana
+Unemployment Rate: 14977774%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_52c756585385d60d6b717874c5784028 = L.marker(
+                [79.0193, 18.1124],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_52c756585385d60d6b717874c5784028.bindTooltip(
+                `<div>
+                     Region: Telangana
+Unemployment Rate: 15108910%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1420bc59f19f2ec0d584310e745d1c1f = L.marker(
+                [79.0193, 18.1124],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_1420bc59f19f2ec0d584310e745d1c1f.bindTooltip(
+                `<div>
+                     Region: Telangana
+Unemployment Rate: 15679417%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8bf5e37231a34a29f631c0be1b1a9338 = L.marker(
+                [79.0193, 18.1124],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_8bf5e37231a34a29f631c0be1b1a9338.bindTooltip(
+                `<div>
+                     Region: Telangana
+Unemployment Rate: 18185429%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c61cf519a594cd2f23f650e0cef13284 = L.marker(
+                [79.0193, 18.1124],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_c61cf519a594cd2f23f650e0cef13284.bindTooltip(
+                `<div>
+                     Region: Telangana
+Unemployment Rate: 16961448%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cb7b294649ad3b0fb5f68d0b4d2e70df = L.marker(
+                [79.0193, 18.1124],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_cb7b294649ad3b0fb5f68d0b4d2e70df.bindTooltip(
+                `<div>
+                     Region: Telangana
+Unemployment Rate: 17578739%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ceaf71657c00f2ae63f58076eb29824c = L.marker(
+                [91.9882, 23.9408],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_ceaf71657c00f2ae63f58076eb29824c.bindTooltip(
+                `<div>
+                     Region: Tripura
+Unemployment Rate: 1508130%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3be1896a06f06f60927a13f4e01c84fd = L.marker(
+                [91.9882, 23.9408],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_3be1896a06f06f60927a13f4e01c84fd.bindTooltip(
+                `<div>
+                     Region: Tripura
+Unemployment Rate: 1584686%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_736626a50a95794cc8881c1c234e7d69 = L.marker(
+                [91.9882, 23.9408],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_736626a50a95794cc8881c1c234e7d69.bindTooltip(
+                `<div>
+                     Region: Tripura
+Unemployment Rate: 1511217%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d8baa220f6cf1d566eb4c71c0c523f57 = L.marker(
+                [91.9882, 23.9408],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_d8baa220f6cf1d566eb4c71c0c523f57.bindTooltip(
+                `<div>
+                     Region: Tripura
+Unemployment Rate: 971514%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_11f38d6e0e41714f70dd7260f2a48364 = L.marker(
+                [91.9882, 23.9408],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_11f38d6e0e41714f70dd7260f2a48364.bindTooltip(
+                `<div>
+                     Region: Tripura
+Unemployment Rate: 1290986%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_42920ccf5799aaed9eba622e1196c88c = L.marker(
+                [91.9882, 23.9408],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_42920ccf5799aaed9eba622e1196c88c.bindTooltip(
+                `<div>
+                     Region: Tripura
+Unemployment Rate: 1494140%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b2a2ce6e32eca77ba75abe4ae778f1ce = L.marker(
+                [91.9882, 23.9408],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_b2a2ce6e32eca77ba75abe4ae778f1ce.bindTooltip(
+                `<div>
+                     Region: Tripura
+Unemployment Rate: 1348849%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_06eed490295d9179f7f5f3f128a6d5b7 = L.marker(
+                [91.9882, 23.9408],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_06eed490295d9179f7f5f3f128a6d5b7.bindTooltip(
+                `<div>
+                     Region: Tripura
+Unemployment Rate: 1318621%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fb07eb10c83b7d96567c872d8b767b7f = L.marker(
+                [91.9882, 23.9408],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_fb07eb10c83b7d96567c872d8b767b7f.bindTooltip(
+                `<div>
+                     Region: Tripura
+Unemployment Rate: 1368244%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fa732289b1871c30ec12541ced02f7b0 = L.marker(
+                [91.9882, 23.9408],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_fa732289b1871c30ec12541ced02f7b0.bindTooltip(
+                `<div>
+                     Region: Tripura
+Unemployment Rate: 1576529%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e43ef827fe956459bcb085ee464b05d9 = L.marker(
+                [80.9462, 26.8467],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_e43ef827fe956459bcb085ee464b05d9.bindTooltip(
+                `<div>
+                     Region: Uttar Pradesh
+Unemployment Rate: 59433759%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_56fd5990d5f68e140db526587269a8fb = L.marker(
+                [80.9462, 26.8467],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_56fd5990d5f68e140db526587269a8fb.bindTooltip(
+                `<div>
+                     Region: Uttar Pradesh
+Unemployment Rate: 58060531%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f202a6869e54bab77d51998a2b78fa98 = L.marker(
+                [80.9462, 26.8467],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_f202a6869e54bab77d51998a2b78fa98.bindTooltip(
+                `<div>
+                     Region: Uttar Pradesh
+Unemployment Rate: 56976338%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d8d107da3c1039e1f029583b7b1508fa = L.marker(
+                [80.9462, 26.8467],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_d8d107da3c1039e1f029583b7b1508fa.bindTooltip(
+                `<div>
+                     Region: Uttar Pradesh
+Unemployment Rate: 50915056%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8395160b04ef98b5cf3e813487005187 = L.marker(
+                [80.9462, 26.8467],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_8395160b04ef98b5cf3e813487005187.bindTooltip(
+                `<div>
+                     Region: Uttar Pradesh
+Unemployment Rate: 49801902%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_12c0deef9b0aca49110df076fb30b89c = L.marker(
+                [80.9462, 26.8467],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_12c0deef9b0aca49110df076fb30b89c.bindTooltip(
+                `<div>
+                     Region: Uttar Pradesh
+Unemployment Rate: 55380649%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6146cccca1ac54b73377331f11e3004d = L.marker(
+                [80.9462, 26.8467],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_6146cccca1ac54b73377331f11e3004d.bindTooltip(
+                `<div>
+                     Region: Uttar Pradesh
+Unemployment Rate: 56201654%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a44e248a3ee2cf3ace30808f7bbd28d2 = L.marker(
+                [80.9462, 26.8467],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_a44e248a3ee2cf3ace30808f7bbd28d2.bindTooltip(
+                `<div>
+                     Region: Uttar Pradesh
+Unemployment Rate: 55831744%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_47428c079cede10da71eb94eb82f80d9 = L.marker(
+                [80.9462, 26.8467],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_47428c079cede10da71eb94eb82f80d9.bindTooltip(
+                `<div>
+                     Region: Uttar Pradesh
+Unemployment Rate: 56106836%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3b13d9e17c615b4d22777fd94d360f03 = L.marker(
+                [80.9462, 26.8467],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_3b13d9e17c615b4d22777fd94d360f03.bindTooltip(
+                `<div>
+                     Region: Uttar Pradesh
+Unemployment Rate: 56539521%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_23f758627052d2b036148d5dd723188e = L.marker(
+                [79.0193, 30.0668],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_23f758627052d2b036148d5dd723188e.bindTooltip(
+                `<div>
+                     Region: Uttarakhand
+Unemployment Rate: 2711639%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5636c0ed3bb1fa50b42d0633001b5e8a = L.marker(
+                [79.0193, 30.0668],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_5636c0ed3bb1fa50b42d0633001b5e8a.bindTooltip(
+                `<div>
+                     Region: Uttarakhand
+Unemployment Rate: 3020931%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cfaa88be18916b66d8aec6f755ec4f57 = L.marker(
+                [79.0193, 30.0668],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_cfaa88be18916b66d8aec6f755ec4f57.bindTooltip(
+                `<div>
+                     Region: Uttarakhand
+Unemployment Rate: 2539302%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6fece5ccd85ec869ca4c69a39af5d261 = L.marker(
+                [79.0193, 30.0668],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_6fece5ccd85ec869ca4c69a39af5d261.bindTooltip(
+                `<div>
+                     Region: Uttarakhand
+Unemployment Rate: 2720115%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ccd321116d34ace673f9cf106a1dbca7 = L.marker(
+                [79.0193, 30.0668],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_ccd321116d34ace673f9cf106a1dbca7.bindTooltip(
+                `<div>
+                     Region: Uttarakhand
+Unemployment Rate: 2694072%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_807121a1385cb7ecb6f60cfae84b50bd = L.marker(
+                [79.0193, 30.0668],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_807121a1385cb7ecb6f60cfae84b50bd.bindTooltip(
+                `<div>
+                     Region: Uttarakhand
+Unemployment Rate: 2656071%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_db364e7dd7d2af0439830ff51c30fd74 = L.marker(
+                [79.0193, 30.0668],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_db364e7dd7d2af0439830ff51c30fd74.bindTooltip(
+                `<div>
+                     Region: Uttarakhand
+Unemployment Rate: 2938552%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5f40ad891200b6809972a573b55f4868 = L.marker(
+                [79.0193, 30.0668],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_5f40ad891200b6809972a573b55f4868.bindTooltip(
+                `<div>
+                     Region: Uttarakhand
+Unemployment Rate: 2717528%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7f046c03054013d5877c780a0d63fae7 = L.marker(
+                [79.0193, 30.0668],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_7f046c03054013d5877c780a0d63fae7.bindTooltip(
+                `<div>
+                     Region: Uttarakhand
+Unemployment Rate: 2695230%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_126dbc4072eee4d100a5829800cc4b54 = L.marker(
+                [79.0193, 30.0668],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_126dbc4072eee4d100a5829800cc4b54.bindTooltip(
+                `<div>
+                     Region: Uttarakhand
+Unemployment Rate: 2739309%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ff0759d4ad2569c13effb527c2b3e906 = L.marker(
+                [87.855, 22.9868],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_ff0759d4ad2569c13effb527c2b3e906.bindTooltip(
+                `<div>
+                     Region: West Bengal
+Unemployment Rate: 35820789%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6a52def86ceea5b5d2e4804d865e2815 = L.marker(
+                [87.855, 22.9868],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_6a52def86ceea5b5d2e4804d865e2815.bindTooltip(
+                `<div>
+                     Region: West Bengal
+Unemployment Rate: 36964178%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_340546cc31083f3e0714347df76fa64c = L.marker(
+                [87.855, 22.9868],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_340546cc31083f3e0714347df76fa64c.bindTooltip(
+                `<div>
+                     Region: West Bengal
+Unemployment Rate: 35903917%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9599df61ae3e12269ead86f1d247d4f3 = L.marker(
+                [87.855, 22.9868],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_9599df61ae3e12269ead86f1d247d4f3.bindTooltip(
+                `<div>
+                     Region: West Bengal
+Unemployment Rate: 26938836%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_284a5c319b0a753df14c80fe36ba7344 = L.marker(
+                [87.855, 22.9868],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_284a5c319b0a753df14c80fe36ba7344.bindTooltip(
+                `<div>
+                     Region: West Bengal
+Unemployment Rate: 28356675%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_639ba50a1b9e4ff966c27a1c9e7aeb24 = L.marker(
+                [87.855, 22.9868],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_639ba50a1b9e4ff966c27a1c9e7aeb24.bindTooltip(
+                `<div>
+                     Region: West Bengal
+Unemployment Rate: 30726310%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ccec3de2bea8854f221cef21562b07eb = L.marker(
+                [87.855, 22.9868],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_ccec3de2bea8854f221cef21562b07eb.bindTooltip(
+                `<div>
+                     Region: West Bengal
+Unemployment Rate: 35372506%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a03e65a6c9e3d9e9778141c4aecd3e30 = L.marker(
+                [87.855, 22.9868],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_a03e65a6c9e3d9e9778141c4aecd3e30.bindTooltip(
+                `<div>
+                     Region: West Bengal
+Unemployment Rate: 33298644%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_62584817f822c1ebd8ae49d22996939c = L.marker(
+                [87.855, 22.9868],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_62584817f822c1ebd8ae49d22996939c.bindTooltip(
+                `<div>
+                     Region: West Bengal
+Unemployment Rate: 35707239%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9119e6a1b7f0baeb532efd664e6fec6b = L.marker(
+                [87.855, 22.9868],
+                {}
+            ).addTo(map_90fc9894fb65682c655ed7d6cbb90ecd);
+        
+    
+            marker_9119e6a1b7f0baeb532efd664e6fec6b.bindTooltip(
+                `<div>
+                     Region: West Bengal
+Unemployment Rate: 33962549%
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
