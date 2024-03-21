@@ -1,0 +1,22 @@
+{
+  "name": "nodejs",
+  "version": "1.0.1",
+  "description": "nodejs programming",
+  "main": "node.js",
+  "scripts": {
+    "test": "hello this is me",
+    "start": "what about you"
+  },
+  "repository": {
+    "type": "git",
+    "url": "jn"
+  },
+  "keywords": [
+    "kjl"
+  ],
+  "author": "jn",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
