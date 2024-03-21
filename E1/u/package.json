@@ -1,0 +1,21 @@
+{
+  "name": "expressproject",
+  "version": "1.0.2",
+  "description": "about npm packages",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "HELLO": "npm run start && echo 'CSE'"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "divya",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "grunt": "^1.6.1",
+    "gulp": "^4.0.2",
+    "lodash": "^3.10.1"
+  }
+}
